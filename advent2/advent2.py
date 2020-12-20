@@ -2,8 +2,8 @@ import fileinput
 splitLine = []
 validPasswords = 0
 for line in fileinput.input(files = "advent2input.txt"):
-    splitLine = line.split();
-    minMax = splitLine[0].split('-');
+    splitLine = line.split()
+    minMax = splitLine[0].split('-')
     char = splitLine[1][0]
     #part1
 ##    count = splitLine[2].count(char);

@@ -10,7 +10,6 @@ def part1():
             #end of group
             sum_questions += len(group_answers.keys())
             #reset group
-            print(group_answers)
             group_answers = {}
         else:
             for letter in line:
@@ -27,7 +26,6 @@ def part2():
         if line == "":
             #end of group
             sum_questions += len(group_answers.keys())
-            print(group_answers)
             #reset group
             group_answers = {}
             first_line = {}
